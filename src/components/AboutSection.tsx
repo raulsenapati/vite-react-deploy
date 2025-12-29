@@ -117,7 +117,7 @@ const AboutSection = () => {
           <div className="grid grid-cols-1 gap-6">
             {skills.map((skillGroup, index) => (
               <div key={index} className="space-y-3">
-                <h4 className="font-semibold text-gray-800 dark:text-gray-200 text-lg">{skillGroup.category}</h4>
+                <h4 className="font-semibold text-gray-800 dark:text-gray-200 text-lg text-left">{skillGroup.category}</h4>
                 <div className="flex flex-wrap gap-2">
                   {skillGroup.technologies.map((tech, i) => (
                     <Badge key={i} variant="secondary" className="bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600">
