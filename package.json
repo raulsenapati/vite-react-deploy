@@ -2,6 +2,7 @@
   "name": "vite-react-deploy",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://raulsenapati.github.io/vite-react-deploy/",
   "type": "module",
   "scripts": {
     "dev": "vite",
