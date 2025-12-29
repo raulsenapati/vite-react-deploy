@@ -72,7 +72,7 @@ const AcademicSection = () => {
               <div className="flex justify-between items-start">
                 <div>
                   <CardTitle className="text-xl text-gray-800 dark:text-gray-200 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors duration-300">{edu.degree}</CardTitle>
-                  <CardDescription className="text-lg font-semibold text-purple-600 dark:text-purple-400 mt-1">
+                  <CardDescription className="text-lg text-left font-semibold text-purple-600 dark:text-purple-400 mt-1">
                     {edu.institution}
                   </CardDescription>
                 </div>
