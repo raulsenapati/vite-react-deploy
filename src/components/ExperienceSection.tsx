@@ -71,7 +71,7 @@ const ExperienceSection = () => {
                   <Building className="w-5 h-5 text-blue-600" />
                   {exp.title}
                 </CardTitle>
-                <CardDescription className="text-lg font-semibold text-blue-600 dark:text-blue-400 mt-1">
+                <CardDescription className="text-lg text-left font-semibold text-blue-600 dark:text-blue-400 mt-1">
                   {exp.company}
                 </CardDescription>
               </div>
@@ -91,11 +91,11 @@ const ExperienceSection = () => {
             </div>
           </CardHeader>
           <CardContent>
-            <p className="text-gray-700 dark:text-gray-300 mb-4">{exp.description}</p>
+            <p className="text-gray-700 text-left dark:text-gray-300 mb-4">{exp.description}</p>
             
             <div className="mb-4">
-              <h4 className="font-semibold text-gray-800 dark:text-gray-200 mb-2">Responsibilities:</h4>
-              <ul className="list-disc list-inside space-y-1 text-gray-700 dark:text-gray-300">
+              <h4 className="font-semibold text-gray-800 text-left dark:text-gray-200 mb-2">Responsibilities:</h4>
+              <ul className="list-disc list-inside space-y-1 text-gray-700 dark:text-gray-300 text-left">
                 {exp.responsibilites.map((responsibility, i) => (
                   <li key={i}>{responsibility}</li>
                 ))}
@@ -103,7 +103,7 @@ const ExperienceSection = () => {
             </div>
 
             <div>
-              <h4 className="font-semibold text-gray-800 dark:text-gray-200 mb-2">Technologies:</h4>
+              <h4 className="font-semibold text-gray-800 text-left dark:text-gray-200 mb-2">Technologies:</h4>
               <div className="flex flex-wrap gap-2">
                 {exp.technologies.map((tech, i) => (
                   <Badge key={i} variant="outline" className="bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 border-blue-200 hover:bg-blue-200 dark:hover:bg-blue-600 dark:border-blue-700">
