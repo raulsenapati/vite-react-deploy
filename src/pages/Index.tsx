@@ -140,9 +140,48 @@ const Index = () => {
               </div>
             </div>
 
+             {/* Desktop: horizontal layout, Mobile: vertical stack */}
             <div className="flex items-center gap-4">
-              <ThemeToggle />
-              
+              {/* Mobile: Stack theme toggle above hamburger */}
+              <div className="flex flex-col items-center gap-2 lg:flex-row lg:gap-4">
+                <ThemeToggle />
+                
+                {/* Mobile Hamburger Menu */}
+                <Sheet>
+                  <SheetTrigger asChild>
+                    <Button variant="ghost" size="icon" className="lg:hidden" aria-label="Open navigation menu">
+                      <Menu className="h-6 w-6" />
+                      <span className="sr-only">Open menu</span>
+                    </Button>
+                  </SheetTrigger>
+                  <SheetContent side="right" className="w-[280px]">
+                    <div className="flex flex-col space-y-4 mt-8">
+                      <h2 className="text-lg font-semibold mb-4">Navigation</h2>
+                      {sections.map((section) => {
+                        const Icon = section.icon;
+                        return (
+                          <SheetClose key={section.id} asChild>
+                            <Button
+                              variant={activeSection === section.id ? "default" : "ghost"}
+                              onClick={() => scrollToSection(section.id)}
+                              className={`flex items-center gap-3 justify-start w-full ${
+                                activeSection === section.id 
+                                  ? "bg-blue-600 text-white" 
+                                  : "hover:bg-blue-50 dark:hover:bg-slate-800"
+                              }`}
+                              aria-label={`Navigate to ${section.label} section`}
+                            >
+                              <Icon className="w-5 h-5" />
+                              {section.label}
+                            </Button>
+                          </SheetClose>
+                        );
+                      })}
+                    </div>
+                  </SheetContent>
+                </Sheet>
+              </div>
+
               {/* Desktop Navigation - Hidden on mobile and tablets */}
               <nav className="hidden lg:flex space-x-2" role="navigation" aria-label="Main navigation">
                 {sections.map((section) => {
@@ -165,41 +204,6 @@ const Index = () => {
                   );
                 })}
               </nav>
-
-              {/* Mobile Hamburger Menu */}
-              <Sheet>
-                <SheetTrigger asChild>
-                  <Button variant="ghost" size="icon" className="lg:hidden" aria-label="Open navigation menu">
-                    <Menu className="h-6 w-6" />
-                    <span className="sr-only">Open menu</span>
-                  </Button>
-                </SheetTrigger>
-                <SheetContent side="right" className="w-[280px]">
-                  <div className="flex flex-col space-y-4 mt-8">
-                    <h2 className="text-lg font-semibold mb-4">Navigation</h2>
-                    {sections.map((section) => {
-                      const Icon = section.icon;
-                      return (
-                        <SheetClose key={section.id} asChild>
-                          <Button
-                            variant={activeSection === section.id ? "default" : "ghost"}
-                            onClick={() => scrollToSection(section.id)}
-                            className={`flex items-center gap-3 justify-start w-full ${
-                              activeSection === section.id 
-                                ? "bg-blue-600 text-white" 
-                                : "hover:bg-blue-50 dark:hover:bg-slate-800"
-                            }`}
-                            aria-label={`Navigate to ${section.label} section`}
-                          >
-                            <Icon className="w-5 h-5" />
-                            {section.label}
-                          </Button>
-                        </SheetClose>
-                      );
-                    })}
-                  </div>
-                </SheetContent>
-              </Sheet>
             </div>
           </div>
         </div>
