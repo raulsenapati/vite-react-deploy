@@ -28,10 +28,10 @@ const PublicationsSection = () => {
             <CardHeader>
               <div className="flex justify-between items-start">
                 <div className="flex-1">
-                  <CardTitle className="text-xl text-left text-gray-800 dark:text-gray-200 group-hover:text-green-600 dark:group-hover:text-green-400 transition-colors leading-relaxed">
+                  <CardTitle className="text-xl text-gray-800 dark:text-gray-200 group-hover:text-green-600 dark:group-hover:text-green-400 transition-colors leading-relaxed text-left">
                     {publication.title}
                   </CardTitle>
-                  <CardDescription className="text-lg text-left font-semibold text-green-600 dark:text-green-400 mt-2">
+                  <CardDescription className="text-lg font-semibold text-green-600 dark:text-green-400 mt-2 text-left">
                     Published in {publication.journal}
                   </CardDescription>
                 </div>

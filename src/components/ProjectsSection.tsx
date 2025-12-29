@@ -82,7 +82,7 @@ const ProjectsSection = () => {
               <CardHeader>
                 <div className="flex justify-between items-start">
                   <div>
-                    <CardTitle className="text-xl text-gray-800 dark:text-gray-200 group-hover:text-violet-600 dark:group-hover:text-violet-400 transition-colors">
+                    <CardTitle className="text-xl text-gray-800 dark:text-gray-200 group-hover:text-violet-600 dark:group-hover:text-violet-400 transition-colors text-left">
                       {project.name}
                     </CardTitle>
                   </div>

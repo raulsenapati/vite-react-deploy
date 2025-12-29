@@ -67,7 +67,7 @@ const ExperienceSection = () => {
           <CardHeader>
             <div className="flex justify-between items-start">
               <div>
-                <CardTitle className="text-xl text-gray-800 dark:text-gray-200 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300 flex items-center gap-2">
+                <CardTitle className="text-xl text-gray-800 dark:text-gray-200 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300 flex items-center gap-2 text-left">
                   <Building className="w-5 h-5 text-blue-600" />
                   {exp.title}
                 </CardTitle>
