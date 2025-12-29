@@ -89,7 +89,7 @@ const ProjectsSection = () => {
                 </div>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
+                <CardDescription className="text-gray-700 text-left dark:text-gray-300 mb-4 leading-relaxed">
                   {project.description}
                 </CardDescription>
 
