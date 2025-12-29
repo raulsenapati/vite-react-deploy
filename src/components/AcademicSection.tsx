@@ -92,7 +92,7 @@ const AcademicSection = () => {
               </div>
             </CardHeader>
             <CardContent>
-              <p className="text-gray-700 dark:text-gray-300 mb-4">{edu.description}</p>
+              <p className="text-gray-700 text-left dark:text-gray-300 mb-4">{edu.description}</p>
 
               <div className="mb-4">
                 <h4 className="font-semibold text-gray-800 dark:text-gray-200 mb-2 flex items-center gap-2">
@@ -113,7 +113,7 @@ const AcademicSection = () => {
                   <Award className="w-4 h-4" />
                   Achievements:
                 </h4>
-                <ul className="list-disc list-inside space-y-1 text-gray-700 dark:text-gray-300">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 dark:text-gray-300 text-left">
                   {edu.achievements.map((achievement, i) => (
                     <li key={i}>{achievement}</li>
                   ))}
