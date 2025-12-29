@@ -95,7 +95,7 @@ const AcademicSection = () => {
               <p className="text-gray-700 text-left dark:text-gray-300 mb-4">{edu.description}</p>
 
               <div className="mb-4">
-                <h4 className="font-semibold text-gray-800 dark:text-gray-200 mb-2 flex items-center gap-2">
+                <h4 className="font-semibold text-gray-800 dark:text-gray-200 mb-2 flex items-center gap-2 text-left">
                   <Book className="w-4 h-4" />
                   Relevant Coursework:
                 </h4>
