@@ -8,7 +8,7 @@ import { componentTagger } from "lovable-tagger";
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
 // https://vite.dev/config/
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   plugins: [react()],
   base: "/vite-react-deploy/", 
   resolve: {
@@ -16,4 +16,4 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-})
+}));
