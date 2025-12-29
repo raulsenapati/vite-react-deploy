@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { FileText, Download, Award } from "lucide-react";
-import photo from "@/assets/00e36d71-6b21-46d1-86ca-13c3aa6e63f8.png";
+import photo from "@/assets/00e36d71-6b21-46d1-86ca-13c3aa6e63f8.jpg";
 
 interface PDFViewerProps {
   title: string;
