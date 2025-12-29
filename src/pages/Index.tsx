@@ -133,10 +133,10 @@ const Index = () => {
                 className="w-16 h-16 rounded-full object-cover"
               />
               <div>
-                <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent text-left">
                   Rahul Senapati
                 </h1>
-                <p className="text-gray-600 dark:text-gray-300 text-lg">Backend Developer</p>
+                <p className="text-gray-600 dark:text-gray-300 text-lg text-left">Backend Developer</p>
               </div>
             </div>
 
