@@ -5,6 +5,8 @@
   "homepage": "https://raulsenapati.github.io/vite-react-deploy/",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
