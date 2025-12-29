@@ -72,7 +72,7 @@ const PDFViewer = ({ title, content, triggerText = "View Award", triggerIcon }: 
           </div>
           <div className="border rounded-lg overflow-hidden bg-gray-50 dark:bg-gray-900 flex items-center justify-center" style={{ height: '70vh' }}>
             <img
-              src="/lovable-uploads/00e36d71-6b21-46d1-86ca-13c3aa6e63f8.png"
+              src="/vite-react-deploy/lovable-uploads/00e36d71-6b21-46d1-86ca-13c3aa6e63f8.png"
               alt="Award Certificate"
               className="max-w-full max-h-full object-contain"
             />

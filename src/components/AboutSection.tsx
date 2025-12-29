@@ -33,7 +33,7 @@ const AboutSection = () => {
         <div className="flex flex-col items-center mb-6">
           <div className="w-32 h-32 mb-4 rounded-full overflow-hidden border-4 border-blue-200 shadow-lg">
             <img 
-              src="/lovable-uploads/827314e2-484f-4d21-80c3-e07de248c8b9.png" 
+              src="/vite-react-deploy/lovable-uploads/827314e2-484f-4d21-80c3-e07de248c8b9.png" 
               alt="Profile" 
               className="w-full h-full object-cover"
             />

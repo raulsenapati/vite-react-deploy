@@ -45,7 +45,7 @@ const AcademicSection = () => {
       <div className="flex justify-center mb-8">
         <div className="relative">
           <img
-            src="/lovable-uploads/6ffc330f-9bdb-4c1c-a786-8681aec91c6a.png"
+            src="/vite-react-deploy/lovable-uploads/6ffc330f-9bdb-4c1c-a786-8681aec91c6a.png"
             alt="Graduation ceremony photo"
             className="w-80 h-auto rounded-lg shadow-lg border-4 border-white dark:border-gray-700"
           />
