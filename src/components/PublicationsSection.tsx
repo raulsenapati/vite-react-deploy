@@ -26,7 +26,7 @@ const PublicationsSection = () => {
         {publications.map((publication, index) => (
           <Card key={index} className="hover:shadow-xl transition-all duration-300 bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm group border-l-4 border-l-green-500">
             <CardHeader>
-              <div className="flex justify-between items-start">
+              <div className="flex justify-between items-start text-left">
                 <div className="flex-1">
                   <CardTitle className="text-xl text-gray-800 dark:text-gray-200 group-hover:text-green-600 dark:group-hover:text-green-400 transition-colors leading-relaxed text-left">
                     {publication.title}

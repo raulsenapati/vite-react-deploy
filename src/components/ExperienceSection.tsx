@@ -75,9 +75,6 @@ const ExperienceSection = () => {
                   {exp.company}
                 </CardDescription>
               </div>
-              <Badge variant="secondary" className="bg-blue-100 dark:bg-blue-900/50 text-blue-800 dark:text-blue-200 hover:bg-blue-200 dark:hover:bg-blue-600">
-                {exp.duration}
-              </Badge>
             </div>
             <div className="flex items-center gap-4 text-sm text-gray-600 dark:text-gray-300 mt-2 text-left">
               <div className="flex items-center gap-1">

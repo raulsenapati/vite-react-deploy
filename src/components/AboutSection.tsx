@@ -48,7 +48,7 @@ const AboutSection = () => {
 
       {/* Personal Info & Contact */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
-        <AnimatedCard className="hover:shadow-lg transition-all duration-300 bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm">
+        <AnimatedCard className="hover:shadow-lg transition-all duration-300 bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm text-left">
           <CardHeader>
             <CardTitle className="text-2xl text-gray-800 dark:text-gray-200">Get In Touch</CardTitle>
             <CardDescription>Let's connect and build something amazing together</CardDescription>
@@ -86,7 +86,7 @@ const AboutSection = () => {
           </CardContent>
         </AnimatedCard>
 
-        <AnimatedCard className="hover:shadow-lg transition-all duration-300 bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm" delay={150}>
+        <AnimatedCard className="hover:shadow-lg transition-all duration-300 bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm text-left" delay={150}>
           <CardHeader>
             <CardTitle className="text-2xl text-gray-800 dark:text-gray-200">Quick Facts</CardTitle>
             <CardDescription>A little bit about my journey</CardDescription>
@@ -108,7 +108,7 @@ const AboutSection = () => {
         </AnimatedCard>
       </div>
 
-      <AnimatedCard className="hover:shadow-lg transition-all duration-300 bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm" delay={300}>
+      <AnimatedCard className="hover:shadow-lg transition-all duration-300 bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm text-left" delay={300}>
         <CardHeader>
           <CardTitle className="text-2xl text-gray-800 dark:text-gray-200">Technical Skills</CardTitle>
           <CardDescription>Technologies and tools I work with</CardDescription>
