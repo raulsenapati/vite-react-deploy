@@ -80,7 +80,7 @@ const AcademicSection = () => {
                   GPA: {edu.gpa}
                 </Badge>
               </div>
-              <div className="flex items-center gap-4 text-sm text-gray-600 dark:text-gray-300 mt-2">
+              <div className="flex items-center gap-4 text-sm text-gray-600 dark:text-gray-300 mt-2 text-left">
                 <div className="flex items-center gap-1">
                   <MapPin className="w-4 h-4" />
                   {edu.location}

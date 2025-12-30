@@ -54,11 +54,11 @@ const AboutSection = () => {
             <CardDescription>Let's connect and build something amazing together</CardDescription>
           </CardHeader>
           <CardContent className="space-y-4">
-            <div className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
+            <div className="flex items-center gap-3 text-gray-700 dark:text-gray-300 text-left">
               <MapPin className="w-5 h-5 text-blue-600" />
               <span>Washington DC-Metro Area</span>
             </div>
-            <div className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
+            <div className="flex items-center gap-3 text-gray-700 dark:text-gray-300 text-left">
               <Mail className="w-5 h-5 text-blue-600" />
               <span>rahulsen@buffalo.edu</span>
             </div>
