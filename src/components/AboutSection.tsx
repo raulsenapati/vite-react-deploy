@@ -21,7 +21,7 @@ const skills = [
 
 const quickFacts = [
   { value: "10+", label: "Years Experience", bgColor: "bg-blue-50 dark:bg-blue-900/20", textColor: "text-blue-600" },
-  { value: "15+", label: "Projects Completed", bgColor: "bg-purple-50 dark:bg-purple-900/20", textColor: "text-purple-600" },
+  { value: "24+", label: "Projects Completed", bgColor: "bg-purple-50 dark:bg-purple-900/20", textColor: "text-purple-600" },
   { value: "2", label: "Companies", bgColor: "bg-green-50 dark:bg-green-900/20", textColor: "text-green-600" },
   { value: "2", label: "Degrees", bgColor: "bg-orange-50 dark:bg-orange-900/20", textColor: "text-orange-600" }
 ];
