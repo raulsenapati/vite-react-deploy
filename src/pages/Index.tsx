@@ -111,14 +111,14 @@ const Index = () => {
       {/* SEO: Hidden content for search engines */}
       <div className="sr-only">
         <h1>Rahul Senapati - Expert Backend Developer specializing in Web Development and Backend Technologies</h1>
-        <p>Experienced Backend Developer with expertise in Java Spring Boot Microservices, API development, Python Machine Learning, SQL databases, MongoDB, and Apache Kafka. Full-stack software engineer with a proven track record in building scalable web applications.</p>
+        <p>Experienced Backend Developer with expertise in Java Spring Boot Microservices, API development, Python Machine Learning, SQL databases, MongoDB, and Apache Kafka. Backend Development Engineer with a proven track record in building scalable web applications.</p>
         <ul>
           <li>Java Spring Boot Microservices Architecture</li>
           <li>Backend API Development and Web Development</li>
           <li>Python Machine Learning and Data Science</li>
           <li>SQL Database Design and MongoDB NoSQL</li>
           <li>Apache Kafka Message Streaming</li>
-          <li>Full Stack Software Engineering Solutions</li>
+          <li>Software Engineering Solutions</li>
         </ul>
       </div>
 

@@ -41,7 +41,7 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-200 mb-4">About Me</h2>
         </div>
         <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-          Passionate full-stack developer with 10+ years of experience building scalable web applications. 
+          Backend Development Engineer with 10+ years of experience building scalable web applications. 
           I love turning complex problems into simple, beautiful solutions through clean code and innovative thinking.
         </p>
       </div>
