@@ -20,7 +20,7 @@ const skills = [
 ];
 
 const quickFacts = [
-  { value: "10+", label: "Years Experience", bgColor: "bg-blue-50 dark:bg-blue-900/20", textColor: "text-blue-600" },
+  { value: "11+", label: "Years Experience", bgColor: "bg-blue-50 dark:bg-blue-900/20", textColor: "text-blue-600" },
   { value: "24+", label: "Projects Completed", bgColor: "bg-purple-50 dark:bg-purple-900/20", textColor: "text-purple-600" },
   { value: "2", label: "Companies", bgColor: "bg-green-50 dark:bg-green-900/20", textColor: "text-green-600" },
   { value: "2", label: "Degrees", bgColor: "bg-orange-50 dark:bg-orange-900/20", textColor: "text-orange-600" }
@@ -41,7 +41,7 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-200 mb-4">About Me</h2>
         </div>
         <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-          Backend Development Engineer with 10+ years of experience building scalable web applications. 
+          Backend Development Engineer with 11+ years of experience building scalable web applications. 
           I love turning complex problems into simple, beautiful solutions through clean code and innovative thinking.
         </p>
       </div>
